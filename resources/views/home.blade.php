@@ -22,7 +22,7 @@ Halaman Pilih
                 <a href="{{ route('lowongan') }}">
                     <img class="gbr-search ml-2 mr-5" src="image/Search2.jpg" alt="" style="width: 400px; height: 400px;">
                 </a>
-                <a href="buat_lowongan.html">
+                <a href="{{ route('create') }}">
                     <img class="gbr-search ml-2" src="image/regis2.jpg" alt="" style="width: 400px; height: 400px;">
                 </a>
             </div>

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style_mainpage.css">
     <link rel="stylesheet" href="css/style-signin.css">
+    <link rel="stylesheet" href="css/style-signup.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/f071d9c355.js" crossorigin="anonymous"></script>
     <title>@yield('title')</title>

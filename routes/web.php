@@ -19,4 +19,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/lowongan', 'LowonganController@index')->name('lowongan');
+Route::get('lowongan/tambah', 'LowonganController@tambah');
+Route::get('/create', 'CreateController@index')->name('create');
 Route::resource('jobs', 'JobController');

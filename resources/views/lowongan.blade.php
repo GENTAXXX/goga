@@ -80,21 +80,21 @@
         <h1 class="text-center mb-4 mt-5">Rekomendasi Lowongan</h1>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner row w-100 mx-auto">
-                <div class="carousel-item col-md-4 active">
-                    <div class="card">
-                        <img class="card-img-top img-fluid" src="E:\Tugas Kuliah\Semester 3\Proyek App\FE\image\design.jpg" alt="Card image cap">
-                        <div class="card-body text-center">
-                            <h4 class="card-title mb-4">Designer</h4>
-                            <p class="card-text">Lowongan dari :</p>
-                            <h5>Percetakan Adi Surya</h5>
-                            <p class="card-text">Gaji Sebesar :</p>
-                            <h5>Rp 2.000.000,- /bulan</h5>
-                            <p class="card-text">Jenis Pekerjaan :</p>
-                            <h5>Percetakan Adi Surya</h5>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <div class="carousel-item col-md-4 active">
+                        <div class="card">
+                            <img class="card-img-top img-fluid" src="E:\Tugas Kuliah\Semester 3\Proyek App\FE\image\design.jpg" alt="Card image cap">
+                            <div class="card-body text-center">
+                                <h4 class="card-title mb-4">Designer</h4>
+                                <p class="card-text">Lowongan dari :</p>
+                                <h5>Percetakan Adi Surya</h5>
+                                <p class="card-text">Gaji Sebesar :</p>
+                                <h5>Rp 2.000.000,- /bulan</h5>
+                                <p class="card-text">Jenis Pekerjaan :</p>
+                                <h5>Percetakan Adi Surya</h5>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
                         </div>
                     </div>
-                </div>
                 <div class="carousel-item col-md-4">
                     <div class="card">
                         <img class="card-img-top img-fluid" src="E:\Tugas Kuliah\Semester 3\Proyek App\FE\image\design.jpg" alt="Card image cap">
@@ -205,9 +205,10 @@
         </h1>
         <div class="row mt-4 ">
             <div class="col-8 ">
+                @foreach($lowongan as $low)
                 <a href="#">
                     <div>
-                        <h2>Designer</h2>
+                        <h2>{{ $low->nama_pekerjaan }}</h2>
                         <div class="shadow-lg p-0 pl-md-0 mb-5 bg-white rounded border">
                             <div class="row">
                                 <div class="col-4">
@@ -221,93 +222,15 @@
 
                                 </div>
                                 <div class="col-5 m-auto pl-0">
-                                    <h5>Percetakan Mulya Abadi</h5>
-                                    <h5>Percetakan Mulya Abadi</h5>
-                                    <h5>Percetakan Mulya Abadi</h5>
-
+                                    <h5>{{ $low->nama_perusahaan }}</h5>
+                                    <h5>{{ $low->nama_perusahaan }}</h5>
+                                    <h5>{{ $low->nama_perusahaan }}</h5>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </a>
-                <a href="#">
-                    <div>
-                        <h2>Designer</h2>
-                        <div class="shadow-lg p-0 pl-md-0 mb-5 bg-white rounded border">
-                            <div class="row">
-                                <div class="col-4">
-
-                                    <img src="image/design.jpg" alt="" style="width: 200px; height: 200px;">
-                                </div>
-                                <div class="col-3 m-auto pl-0">
-                                    <h5>Pekerjaan oleh :</h5>
-                                    <h5>Pekerjaan oleh :</h5>
-                                    <h5>Pekerjaan oleh :</h5>
-
-                                </div>
-                                <div class="col-5 m-auto pl-0">
-                                    <h5>Percetakan Mulya Abadi</h5>
-                                    <h5>Percetakan Mulya Abadi</h5>
-                                    <h5>Percetakan Mulya Abadi</h5>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="#">
-                    <div>
-                        <h2>Designer</h2>
-                        <div class="shadow-lg p-0 pl-md-0 mb-5 bg-white rounded border">
-                            <div class="row">
-                                <div class="col-4">
-
-                                    <img src="image/design.jpg" alt="" style="width: 200px; height: 200px;">
-                                </div>
-                                <div class="col-3 m-auto pl-0">
-                                    <h5>Pekerjaan oleh :</h5>
-                                    <h5>Pekerjaan oleh :</h5>
-                                    <h5>Pekerjaan oleh :</h5>
-
-                                </div>
-                                <div class="col-5 m-auto pl-0">
-                                    <h5>Percetakan Mulya Abadi</h5>
-                                    <h5>Percetakan Mulya Abadi</h5>
-                                    <h5>Percetakan Mulya Abadi</h5>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="#">
-                    <div>
-                        <h2>Designer</h2>
-                        <div class="shadow-lg p-0 pl-md-0 mb-5 bg-white rounded border">
-                            <div class="row">
-                                <div class="col-4">
-
-                                    <img src="image/design.jpg" alt="" style="width: 200px; height: 200px;">
-                                </div>
-                                <div class="col-3 m-auto pl-0">
-                                    <h5>Pekerjaan oleh :</h5>
-                                    <h5>Pekerjaan oleh :</h5>
-                                    <h5>Pekerjaan oleh :</h5>
-
-                                </div>
-                                <div class="col-5 m-auto pl-0">
-                                    <h5>Percetakan Mulya Abadi</h5>
-                                    <h5>Percetakan Mulya Abadi</h5>
-                                    <h5>Percetakan Mulya Abadi</h5>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-            </div>
-
+                @endforeach
             <div class="col-4">
                 <div class="shadow-lg p-0 mb-5 bg-white rounded border">
                     <div class="bg-kategori">

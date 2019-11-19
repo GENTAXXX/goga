@@ -18,9 +18,9 @@ class CreateJobsTable extends Migration
             $table->string('nama_perusahaan');
             $table->string('deskripsi');
             $table->string('nama_pekerjaan');
-            $table->string('status');
-            $table->string('jenis_klm');
-            $table->string('pendidikan');
+            $table->enum('Full Time', 'Part Time', 'Freelancer');
+            $table->enum('jenis_klm');
+            $table->enum('pendidikan');
             $table->string('kriteria');
             $table->string('syarat');
             $table->string('email');
