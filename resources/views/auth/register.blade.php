@@ -14,7 +14,7 @@
     <body>
         <div class="container">
             <div class="d-flex justify-content-center">
-                <div class="user_card" style="height: 500px">
+                <div class="user_card" style="height: 800px">
                     <div class="d-flex justify-content-center">
                         <div class="brand_logo_container">
                             <img src="image/usr.jpg" class="brand_logo" alt="Logo">

@@ -205,10 +205,9 @@
         </h1>
         <div class="row mt-4 ">
             <div class="col-8 ">
-                @foreach($lowongan as $low)
                 <a href="#">
                     <div>
-                        <h2>{{ $low->nama_pekerjaan }}</h2>
+                        <h2>Designer</h2>
                         <div class="shadow-lg p-0 pl-md-0 mb-5 bg-white rounded border">
                             <div class="row">
                                 <div class="col-4">
@@ -222,15 +221,15 @@
 
                                 </div>
                                 <div class="col-5 m-auto pl-0">
-                                    <h5>{{ $low->nama_perusahaan }}</h5>
-                                    <h5>{{ $low->nama_perusahaan }}</h5>
-                                    <h5>{{ $low->nama_perusahaan }}</h5>
+                                    <h5>Percetakan Adi Jaya</h5>
+                                    <h5>Percetakan Adi Jaya</h5>
+                                    <h5>Percetakan Adi Jaya</h5>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </a>
-                @endforeach
+            </div>
             <div class="col-4">
                 <div class="shadow-lg p-0 mb-5 bg-white rounded border">
                     <div class="bg-kategori">

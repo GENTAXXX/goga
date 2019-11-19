@@ -25,57 +25,61 @@ Buat Lowongan
                                 <label>Deskripsi Perusahaan/User</label><br>
                                 <textarea type="text" class="form-control" cols="50" rows="5" placeholder="Deskripsi Perusahaan/User"></textarea>
                                 <label>Nama Pekerjaan</label><br>
-                                <textarea type="text" class="form-control" cols="50" rows="1" placeholder="Nama Pekerjaan"></textarea> Status Pekerjaan :
-                                <br>
-                                <div class="radio-inline">
-                                    <input type="radio" name="Status Pekerjaan"> Full Time
-                                    <input type="radio" name="Status Pekerjaan"> Part Time
-                                    <input type="radio" name="Status Pekerjaan"> Freelancer
-                                    <br> Jenis Kelamin :
-                                    <br>
-                                    <div class="radio-inline">
-                                        <input type="radio" name="kelamin"> Laki-Laki
-                                        <input type="radio" name="kelamin"> Perempuan
-                                    </div>  
-                                    <br> Pendidikan :
-                                    <br>
-                                    <div class="radio-inline">
-                                        <input type="radio" name="Pendidikan"> SD
-                                        <input type="radio" name="Pendidikan"> SMP
-                                        <input type="radio" name="Pendidikan"> SMA
-                                        <br>
-                                        <div class="radio-inline">
-                                            <input type="radio" name="Pendidikan"> Diploma
-                                            <input type="radio" name="Pendidikan"> S1
-                                            <input type="radio" name="Pendidikan"> S2
-                                            <input type="radio" name="Pendidikan"> Tidak mengenyam pendidikan
-                                            <br>
-                                            <br>
-                                            <label>Kriteria</label><br>
-                                            <textarea type="text" class="form-control" cols="40" rows="5" placeholder="Kriteria"></textarea>
-                                            <label>Syarat</label><br>
-                                            <textarea type="text" class="form-control" cols="40" rows="5" placeholder="Syarat"></textarea>
-                                            <label>E-mail</label><br>
-                                            <textarea type="text" class="form-control" cols="50" rows="1" placeholder="E-mail"></textarea>
-                                            <label>Jangka Lamaran</label><br>
-                                            <textarea type="data-target" class="form-control" cols="50" rows="1" placeholder="Jangka Lamaran"></textarea>
-                                            <label>Pilih Logo</label><br>
-                                            <input type="file" name="file">
-                                        </div>
-                                    </div>
-                                    <div class="d-flex justify-content-center mt-3 login_container">
-                                        <a href="halpilih.html">
-                                            <button type="button" name="button" class="btn login_btn">Buat Lowongan</button>
-                                        </a>
-                                    </div>
-                                    <div class="mt-4">
+                                <textarea type="text" class="form-control" cols="50" rows="1" placeholder="Nama Pekerjaan"></textarea>
+                                <hr>
+                                <div class="form-group">
+                                  <label for="sel1">Status Pekerjaan :</label>
+                                  <select class="form-control" id="sel1">
+                                    <option>Full Time</option>
+                                    <option>Part Time</option>
+                                    <option>Frelancer</option>
+                                  </select>
                                 </div>
-                            </form>
+                                <hr>
+                                <div class="form-group">
+                                  <label for="sel1">Jenis Kelamin :</label>
+                                  <select class="form-control" id="sel1">
+                                    <option>Laki-Laki</option>
+                                    <option>Perempuan</option>
+                                  </select>
+                                </div>
+                                <hr>
+                                <div class="form-group">
+                                  <label for="sel1">Pendidikan :</label>
+                                  <select class="form-control" id="sel1">
+                                    <option>SD</option>
+                                    <option>SMP</option>
+                                    <option>SMA</option>
+                                    <option>DIPLOMA</option>
+                                    <option>S1</option>
+                                    <option>S2</option>
+                                    <option>Tidak Mengenyam Pendidikan</option>
+                                  </select>
+                                </div>
+                                <hr>
+                                <label>Kriteria</label><br>
+                                <textarea type="text" class="form-control" cols="40" rows="5" placeholder="Kriteria"></textarea>
+                                <label>Syarat</label><br>
+                                <textarea type="text" class="form-control" cols="40" rows="5" placeholder="Syarat"></textarea>
+                                <label>E-mail</label><br>
+                                <textarea type="text" class="form-control" cols="50" rows="1" placeholder="E-mail"></textarea>
+                                <label>Jangka Lamaran</label><br>
+                                <textarea type="data-target" class="form-control" cols="50" rows="1" placeholder="Jangka Lamaran"></textarea>
+                                <label>Pilih Logo</label><br>
+                                <input type="file" name="file">
+                            </div>
                         </div>
+                        <div class="d-flex justify-content-center mt-3 login_container">
+                            <a href="halpilih.html">
+                                <button type="button" name="button" class="btn login_btn">Buat Lowongan</button>
+                            </a>
+                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 @endsection
     

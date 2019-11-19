@@ -8,6 +8,6 @@ use Illuminate\Support\Facades\DB;
 class CreateController extends Controller
 {
     public function index(){
-    	returm view('create');
+    	return view('create');
     }
 }
